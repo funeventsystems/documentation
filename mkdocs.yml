@@ -2,6 +2,9 @@ site_name: FunEventSystems Root Documentation
 nav:
     - 'Home' : 'index.md'
 
+theme:
+  name: material
+
 
 #plugins:
 #    - with-pdf:
