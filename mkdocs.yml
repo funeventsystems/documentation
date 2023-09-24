@@ -1,0 +1,13 @@
+site_name: FunEventSystems Root Documentation
+nav:
+    - 'Home' : 'index.md'
+
+
+#plugins:
+#    - with-pdf:
+#        author: TheJades, GManAndMarbles
+#        cover_title: Manual
+#        cover_subtitle: V1.1
+#        output_path: pdf/manual.pdf
+
+        
