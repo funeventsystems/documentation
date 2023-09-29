@@ -6,6 +6,8 @@ Welcome to Fun Event Systems' Documentation and User Guides. We're here to ensur
 ## Systems
 ### Audio
 ### Lighting
+https://funeventsystems-documentation.readthedocs.io/en/latest/lightboard/
+https://funeventsystems-documentation.readthedocs.io/en/latest/modular-lights/
 ### Communication
 
 
