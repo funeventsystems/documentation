@@ -2,7 +2,8 @@ site_name: FunEventSystems Root Documentation
 nav:
     - 'Home' : 'index.md'
     - Lighting:
-          - Modular Lights : modular-lights.md         
+          - Modular Lights : modular-lights.md 
+          - Lighting Board : lightboard.md
     
 
 theme:
