@@ -28,7 +28,7 @@ Before getting started, ensure that you have the following dependencies installe
 1.  Clone the repository to your local machine.
    
     
-    `git clone https://github.com/your/repository.git` 
+    `git clone https://github.com/funeventsystems/event-ticket-system-backend.git` 
     
 2.  Install the required Node.js packages.
     
