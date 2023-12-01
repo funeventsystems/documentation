@@ -4,6 +4,8 @@ nav:
     - Lighting:
           - Modular Lights : modular-lights.md 
           - Lighting Board : lightboard.md
+    - Tickets:
+          - Ticket system : tickets.md
     
 
 theme:
