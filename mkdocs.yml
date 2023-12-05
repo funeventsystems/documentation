@@ -6,6 +6,8 @@ nav:
           - Lighting Board : lightboard.md
     - Tickets:
           - Ticket system : tickets.md
+    - Management:
+          - Team Management : team-manager.md
     
 
 theme:
