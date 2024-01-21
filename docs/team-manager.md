@@ -1,9 +1,9 @@
 
-# Team Manager Documentation
+# SideStage Documentation
 
 ## Introduction
 
-Welcome to the documentation for the Team Manager application. This software is designed to facilitate team management by providing a suite of features including user authentication, calendar management, feedback submission, private notebooks, and drive functionalities. This documentation will guide you through the installation, setup, and usage of the application.
+Welcome to the documentation for the SideStage application. This software is designed to facilitate team management by providing a suite of features including user authentication, calendar management, feedback submission, private notebooks, and drive functionalities. This documentation will guide you through the installation, setup, and usage of the application.
 
 ## Table of Contents
 
@@ -20,8 +20,9 @@ Welcome to the documentation for the Team Manager application. This software is 
 5.  Screenshots
 6.  Feedback Submission
 7.  Event Management
-8.  Absence Tracking
-9.  Default Credentials
+8.  Notebooks
+9.  Absence Tracking
+10.  Default Credentials
 
 ----------
 
@@ -104,7 +105,7 @@ Before installing and running the application, ensure that you have the followin
 -   View and manage user data at `http://localhost:3000/users`.
 -   Delete events at `http://localhost:3000/deleteEvent/:eventId`.
 -   View absences for a specific event at `http://localhost:3000/eventAbsences/:eventId`.
-
+-   Audition profiles, to streamline the audition process.
 ----------
 
 ## Screenshots
@@ -125,6 +126,10 @@ Please refer to the provided screenshots for a visual guide on the respective pa
 -   Admins can manage events at `http://localhost:3000/admin`.
 -   Add new events at `http://localhost:3000/addEvent`.
 -   Delete events at `http://localhost:3000/deleteEvent/:eventId`.
+
+----------
+## Notebooks
+-   Users can create private notebooks to write down things, in between rehearsals.
 
 ----------
 
