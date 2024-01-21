@@ -7,7 +7,12 @@ nav:
     - Tickets:
           - Ticket system : tickets.md
     - Management:
-          - Team Management : team-manager.md
+          - SideStage : team-manager.md
+    - Video:
+          - Vide0Stage: videostage.md
+    - Audio:
+          - SoundStage: soundstage.md
+    
     
 
 theme:
