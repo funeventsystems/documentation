@@ -19,3 +19,5 @@ If a file is already written to a cue. Run the command `sudo rm /home/pi/{cue_nu
 ## Running it live in a show
 Not much setup is required, beyond pressing the `setup` button, which is available on the webpage at `10.0.0.181:106` or `127.0.0.1:106` or `{ip_address}:106`
 
+## UI
+The user interface is fairly simple, and will require minimal training. ![image](https://github.com/funeventsystems/documentation/assets/119905567/1675b59c-c359-444a-8f34-2a727040f592)
