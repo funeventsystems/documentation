@@ -1,156 +1,107 @@
-
 # SideStage Documentation
 
-## Introduction
+----
+After logging into sideStage you will be presented with a menu. This menu has a list of pages, clicking on the "Admin Links" text will open up the admin links.
 
-Welcome to the documentation for the SideStage application. This software is designed to facilitate team management by providing a suite of features including user authentication, calendar management, feedback submission, private notebooks, and drive functionalities. This documentation will guide you through the installation, setup, and usage of the application.
+## Links
+1. My Calendar
+2. My Notebook
+3. My Drive
+4. Mail
+5. Admin Page
+6. Auditions
+7. Verify Tickets
+8. Ticket Setup
+9. soundStage
+10. videoStage
+11. lightStage
+12. Logout
 
-## Table of Contents
+### My Calendar
+Stay up-to-date with the latest events happening, these events can be shared within the admin page. You can also mark absences on the individual events.
 
-1.  Prerequisites
-2.  Installation
-3.  Usage
-    -   User Authentication
-    -   Dashboard
-    -   Calendar
-    -   Feedback
-    -   Private Notebooks
-    -   Drive
-4.  Admin Features
-5.  Screenshots
-6.  Feedback Submission
-7.  Event Management
-8.  Notebooks
-9.  Absence Tracking
-10.  Default Credentials
+### My Notebook
+Write down those last-minute ideas when you don't have a pen and paper. Keep all of your notebooks private... and we don't have a delete button, so you can keep all of your good ideas.
+### My Drive
+A bit of a misnomer, this is just the shared drive among all of the members of the show, files can be added on the server in the data/media folder. An upload button may be added later for admins.
+### Mail
+Just another name for the private feedback, which can be added on the admin page for individual users.
+### Admin Page
+This page has everything you need on it. 
+### 2. Manage Events
 
-----------
+### 2.1 Add Event
+To add a new event, provide the following information:
 
-## Prerequisites
+- **Title**: Enter the title of the event.
+- **Date**: Specify the date in the format yyyy-mm-dd.
+- **Users**: List of users attending the event.
+- **Description**: Add a brief description of the event.
+- **Color**: Choose a color for the event.
 
-Before installing and running the application, ensure that you have the following prerequisites installed on your system:
+Click the "Add Event" button to save the event details.
 
--   Node.js
--   npm (Node Package Manager)
+### 2.2 Edit Event
 
-----------
+To edit an existing event, enter the Event ID and modify the necessary details:
 
-## Installation
+- **Enter Event ID to Edit**: Input the unique Event ID.
+- **Edit Event Details**: Make changes to the event information.
 
-1.  Clone the repository to your local machine:
-    
+Click the "Edit Event" button to save the edits.
 
-    
-    `git clone https://github.com/gmanandmarbles/drama-team-management.git` 
-    
-2.  Navigate to the project directory:
-    
+### 2.3 Remove Event
 
-    
-    `cd drama-team-management` 
-    
-3.  Install the required dependencies:
-    
+To remove an event, enter the Event ID:
 
-    
-    `npm install` 
-    
+- **Enter Event ID to Remove**: Provide the Event ID of the event to be removed.
 
-----------
+Click the "Remove Event" button to delete the specified event.
 
-## Usage
+---
 
-### User Authentication
+## 3. Absentees List
 
--   Access the login page by navigating to `http://localhost:3000/login`.
--   Enter your username and password to log in.
--   If authentication is successful, you will be redirected to the dashboard.
+To view the list of absentees for a specific event:
 
-### Dashboard
+- **Select Event**: Choose the event from the dropdown menu.
+- **Select Date**: Specify the date in the format yyyy-mm-dd.
 
--   The dashboard is accessible at `http://localhost:3000/dashboard`.
--   Explore and interact with the features provided on the dashboard.
+Click the "Get Absentees" button to display the list of absentees.
 
-### Calendar
+---
 
--   Access the calendar at `http://localhost:3000/calendar`.
--   View events associated with your account.
--   Admin users can add new events through the admin panel.
+## 4. Private Feedback
 
-### Feedback
+To collect private feedback for a specific user:
 
--   Submit feedback at `http://localhost:3000/submitFeedback`.
--   Provide your feedback through the form.
+- **Select User**: Choose the user from the dropdown menu.
+- **Feedback**: Provide feedback for the selected user.
 
-### Private Notebooks
+Click the "Submit Feedback" button to save the feedback.
 
--   Users can create private notebooks at `http://localhost:3000/createNotebook`.
--   View all private notebooks at `http://localhost:3000/notebooks`.
--   Retrieve a specific private notebook by its ID at `http://localhost:3000/notebook/:notebookId`.
--   Update a private notebook by its ID at `http://localhost:3000/notebook/:notebookId`.
--   Delete a private notebook by its ID at `http://localhost:3000/notebook/:notebookId`.
+---
 
-### Drive
+## 5. User Registration
 
--   Access the drive at `http://localhost:3000/drive`.
--   View all files stored in the drive at `http://localhost:3000/files`.
--   Download a specific file by its path at `http://localhost:3000/files/:filePath`.
+To register a new user:
 
-----------
+- **Username**: Enter the desired username for the new user.
+- **Password**: Set a secure password for the user.
+- **User Type**: Select the type of user (User, Admin, Tech, FrontOfHouse).
 
-## Admin Features
+Click the "Register" button to create a new user account.
 
--   Admins can access the admin panel at `http://localhost:3000/admin`.
--   Admins can add new events at `http://localhost:3000/addEvent`.
--   View and manage user data at `http://localhost:3000/users`.
--   Delete events at `http://localhost:3000/deleteEvent/:eventId`.
--   View absences for a specific event at `http://localhost:3000/eventAbsences/:eventId`.
--   Audition profiles, to streamline the audition process.
-----------
-
-## Screenshots
-
-Please refer to the provided screenshots for a visual guide on the respective pages.
-
-----------
-
-## Feedback Submission
-
--   Users can submit feedback at `http://localhost:3000/submitFeedback`.
--   Feedback is stored securely and can be viewed by admins.
-
-----------
-
-## Event Management
-
--   Admins can manage events at `http://localhost:3000/admin`.
--   Add new events at `http://localhost:3000/addEvent`.
--   Delete events at `http://localhost:3000/deleteEvent/:eventId`.
-
-----------
-## Notebooks
--   Users can create private notebooks to write down things, in between rehearsals.
-
-----------
-
-## Absence Tracking
-
--   Users can mark their absence for a specific event at `http://localhost:3000/markAbsence/:eventId`.
--   Admins can view event absences at `http://localhost:3000/eventAbsences/:eventId`.
-
-----------
-
-## Default Credentials
-
--   **Admin user:**
-    
-    -   Username: `admin`
-    -   Password: `adminpassword`
--   **Normal user:**
-    
-    -   Username: `user`
-    -   Password: `password`
--   **Test user:**
-    
-    -   Username: `test`
-    -   Password: `test`
+---
+### Auditions
+Just a basic auditions page, which allows you to type in an Audition ID, then write notes and score, along with name and a TA homeroom. It will then show a list of everyone on the top panel, which can be used to aid in descisions.
+### Verify Tickets
+The page to verify the tickets on shownight.
+### Ticket Setup
+The page to setup the tickets on, its a basic page. Which is covered in different documentation for the ticket system itself.
+### SoundStage
+Has it's own documentation page.
+### VideoStage
+Has it's own documentation page.
+### LightStage
+Has it's own documentation page.
