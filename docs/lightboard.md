@@ -4,20 +4,21 @@ The FunEventSystems lighting board is designed to be as intuitive to use as poss
 
 ## Setting up
 ### Unpacking
-- Open the flight case which contains the lighting board, the cases are not marked so it may take some trial and error.
-- Take out the board and power supply.
+- Open the flight case which contains the lighting board.
+- Take out the board, power supply, and PC connection cable.
 
 ### Powering on
 - Connect the power supply cable to either a 5V wall adapter or a battery bank.
 - Connect the opposite end of the cable into the lighting boards power receiver cable.
-- Give it a few minutes to power on and connect. You can view if the lighting board is connected by going into the routers connected devices page and looking for a device with the serial number of the board in the name.
+- Connect the PC to the board using the connection cable. The board will show up as COM device when connected successfully.
 
 ### Setting up
-- By default all units are patched to a specific artnet universe. This can only be changed by disassembling your lighting board and reflashing the firmware. check the box of the lighting board to see which universe it controls.’
+- The software is very basic to use, and requires minimal setup, just connecting it and typing in the OLA universe number and IP will connect it, you can then patch it like a normal console to individual DMX channels.
+## Software
 
+The software is currently Windows only, with little plans to change it, it may also be compatable with newer versions of MacOS, though minimal testing has been done to confirm this. The drivers are not bundled, though it should prompt you to install the COM drivers when the device is first connected, then install Python, and run the script after changing the variables, it will show up with a UI showing the information. This will have it's own page when the software is finalized, in early February.
 
 ## Useful information
-- Do not change the password on the wireless router, you have to reflash the firmware to fix it if you change the password.
 - Ensure all cables are plugged in, the correct way.
 
 
