@@ -21,6 +21,13 @@ The software is currently Windows only, with little plans to change it, it may a
 ## Useful information
 - Ensure all cables are plugged in, the correct way.
 
+## Compatability
+
+This device aims to be compatable with as many devices as possible, unfortunately this is not always possible. Due to the nature of electronic devices, and their ages, we have tested a few devices to ensure compatability.
+- Any Windows (x64) based device manufactured 2015 and newer.
+- Acer C740 (and C720) ChromeBook devices running Windows 10.
+- Macbook (any) manufactured between 2015-2022.
+
 
 ## Support
 If you are having issues please contact us through the email on the packaging on the board. We do not provide support of end-user built consoles.
